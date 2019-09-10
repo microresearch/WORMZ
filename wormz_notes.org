@@ -1,0 +1,35 @@
+* first notes
+
+STM32F4
+
+multiple xy movements of worms 
+
+different modes for worms eg. collisions, interactions
+
+number of worms and worm assignments
+
+frozen movements and sequencing???
+
+worm world boundaries
+
+worm wavetables built in (so sample rate questions)
+
+* notebook notes somewhere??? TO FILL IN
+
+eg. 4 worms x,y with cvs for speed but also position at trigger to jump to (so they can jump to and then worm).
+
+mode for each worm?
+
+
+cv ins: x, y, mode/knob+only, speed+knob, pulse/trigger in
+
+on trigger: dependent on mode=
+
+1-snap worm to these co-ords then worm
+2-set goal for worm
+3-place obstacle here
+
+cv outs: x, y (8x DAC)
+
+* see older worm code and notes
+
