@@ -1,7 +1,5 @@
 * first notes
 
-STM32F4
-
 multiple xy movements of worms 
 
 different modes for worms eg. collisions, interactions
@@ -14,14 +12,25 @@ worm world boundaries
 
 worm wavetables built in (so sample rate questions)
 
-* notebook notes somewhere??? TO FILL IN
+* hardware notes
+
+STM32F4 or F103 (depends on ADCs in - 16 channels on F103)
+
+8x DAC - what is DAC on O+C: https://ornament-and-cri.me/schematic/ 
+
+DAC8565=4 channels so x2 for our 4 worms x and y out
+
+* notebook notes
 
 eg. 4 worms x,y with cvs for speed but also position at trigger to jump to (so they can jump to and then worm).
 
 mode for each worm?
 
+4x
 
-cv ins: x, y, mode/knob+only, speed+knob, pulse/trigger in
+cv ins: x, y, mode=knob_only, speed+knob, pulse/trigger in
+
+16x ADC total, plus 4x trigger in (transistor based)
 
 on trigger: dependent on mode=
 
